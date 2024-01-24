@@ -37,6 +37,7 @@ export default class EntryAbility extends UIAbility {
     }
   }
 
+
   onNewWant(want, launchParam) {
     console.info("onNewWant want:" + JSON.stringify(want));
     if (want.parameters.params !== undefined) {
