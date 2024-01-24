@@ -1,0 +1,22 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Menu",
+    "pages/XiangNaiMei",
+    "pages/MeiRuiDiSi",
+    "pages/LaWei",
+    "pages/Min",
+    "pages/Ling",
+    "pages/MiXueEr",
+    "pages/XinXia",
+    "pages/Xin",
+    "pages/YiWeiTe",
+    "pages/MaDeLeiNa",
+    "pages/FeiSha",
+    "pages/XingHui",
+    "pages/AoDaiLi",
+    "pages/BaiMo",
+    "pages/About",
+    "pages/ToInternet"
+  ]
+}

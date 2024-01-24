@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Nick\\.ohos\\config\\auto_debug_klbqCodex_com.example.klbqcodex_560086000103363459.cer",
+          "storePassword": "00000019DFDA5653EC0D4B804A4832A3260E80BEDB95B42A31EBA8481D946280888D118861ED2DA0C6",
+          "keyAlias": "debugKey",
+          "keyPassword": "000000198B32BBA048A02A01E86D5EE8192C00C68BCBCDB36BEE1B7D27516B3D513A8D4E91EFD8588F",
+          "profile": "C:\\Users\\Nick\\.ohos\\config\\auto_debug_klbqCodex_com.example.klbqcodex_560086000103363459.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Nick\\.ohos\\config\\auto_debug_klbqCodex_com.example.klbqcodex_560086000103363459.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
